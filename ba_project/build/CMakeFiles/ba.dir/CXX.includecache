@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/home/slam/slambook2/ba_project/src/ba.cpp
+/home/slam/slambook2/slam_code/ba_project/src/ba.cpp
 iostream
 -
 ceres/ceres.h
@@ -18,7 +18,7 @@ ceres/rotation.h
 chrono
 -
 sophus/se3.hpp
-/home/slam/slambook2/ba_project/src/sophus/se3.hpp
+/home/slam/slambook2/slam_code/ba_project/src/sophus/se3.hpp
 iterator
 -
 

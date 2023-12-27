@@ -1,4 +1,4 @@
-# Install script for directory: /home/slam/slambook2/ba_project
+# Install script for directory: /home/slam/slambook2/slam_code/ba_project
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -45,5 +45,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/slam/slambook2/ba_project/build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/slam/slambook2/slam_code/ba_project/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

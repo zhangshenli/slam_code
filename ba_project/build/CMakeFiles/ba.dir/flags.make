@@ -6,5 +6,5 @@ CXX_FLAGS = -std=c++11 -O2  -g -march=native -O3 -DNDEBUG   -std=gnu++11
 
 CXX_DEFINES = -DGFLAGS_IS_A_DLL=0
 
-CXX_INCLUDES = -I/home/slam/slambook2/ba_project/include -isystem /usr/include/eigen3 -isystem /usr/local/include -isystem /usr/local/include/opencv 
+CXX_INCLUDES = -I/home/slam/slambook2/slam_code/ba_project/include -isystem /usr/include/eigen3 -isystem /usr/local/include -isystem /usr/local/include/opencv 
 

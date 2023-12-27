@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/slam/slambook2/ba_project/src/ba.cpp" "/home/slam/slambook2/ba_project/build/CMakeFiles/ba.dir/src/ba.cpp.o"
+  "/home/slam/slambook2/slam_code/ba_project/src/ba.cpp" "/home/slam/slambook2/slam_code/ba_project/build/CMakeFiles/ba.dir/src/ba.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

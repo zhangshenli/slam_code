@@ -8,7 +8,7 @@ find_package(OpenCV REQUIRED)
 find_package(Sophus REQUIRED)
 
 include_directories(
-        "/home/slam/slambook2/ba_project/include"
+        "/home/slam/slambook2/slam_code/ba_project/include"
         ${CERES_INCLUDE_DIRS}
         "/usr/include/eigen3/"
         ${OpenCV_INCLUDE_DIRS}

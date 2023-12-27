@@ -11,10 +11,10 @@ using namespace std;
 using namespace cv;
 using namespace Eigen;
 
-string img_1 = "/home/slam/slambook2/ba_project/data/1.png";
-string img_2 = "/home/slam/slambook2/ba_project/data/2.png";
-string img_d1 = "/home/slam/slambook2/ba_project/data/1_depth.png";
-string img_d2 = "/home/slam/slambook2/ba_project/data/2_depth.png";
+string img_1 = "../data/1.png";
+string img_2 = "../data/2.png";
+string img_d1 = "../data/1_depth.png";
+string img_d2 = "../data/2_depth.png";
 double fx = 520.9;
 double fy = 521.0;
 double cx = 325.1;
