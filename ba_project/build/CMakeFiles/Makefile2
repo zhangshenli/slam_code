@@ -60,6 +60,43 @@ CMAKE_SOURCE_DIR = /home/slam/slambook2/slam_code/ba_project
 CMAKE_BINARY_DIR = /home/slam/slambook2/slam_code/ba_project/build
 
 #=============================================================================
+# Target rules for target CMakeFiles/g2o_3d2d.dir
+
+# All Build rule for target.
+CMakeFiles/g2o_3d2d.dir/all:
+	$(MAKE) -f CMakeFiles/g2o_3d2d.dir/build.make CMakeFiles/g2o_3d2d.dir/depend
+	$(MAKE) -f CMakeFiles/g2o_3d2d.dir/build.make CMakeFiles/g2o_3d2d.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/slam/slambook2/slam_code/ba_project/build/CMakeFiles --progress-num=3,4 "Built target g2o_3d2d"
+.PHONY : CMakeFiles/g2o_3d2d.dir/all
+
+# Include target in all.
+all: CMakeFiles/g2o_3d2d.dir/all
+
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/g2o_3d2d.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/slam/slambook2/slam_code/ba_project/build/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/g2o_3d2d.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/slam/slambook2/slam_code/ba_project/build/CMakeFiles 0
+.PHONY : CMakeFiles/g2o_3d2d.dir/rule
+
+# Convenience name for target.
+g2o_3d2d: CMakeFiles/g2o_3d2d.dir/rule
+
+.PHONY : g2o_3d2d
+
+# clean rule for target.
+CMakeFiles/g2o_3d2d.dir/clean:
+	$(MAKE) -f CMakeFiles/g2o_3d2d.dir/build.make CMakeFiles/g2o_3d2d.dir/clean
+.PHONY : CMakeFiles/g2o_3d2d.dir/clean
+
+# clean rule for target.
+clean: CMakeFiles/g2o_3d2d.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
 # Target rules for target CMakeFiles/ba.dir
 
 # All Build rule for target.

@@ -1,3 +1,4 @@
 /home/slam/slambook2/slam_code/ba_project/build/CMakeFiles/rebuild_cache.dir
 /home/slam/slambook2/slam_code/ba_project/build/CMakeFiles/edit_cache.dir
+/home/slam/slambook2/slam_code/ba_project/build/CMakeFiles/g2o_3d2d.dir
 /home/slam/slambook2/slam_code/ba_project/build/CMakeFiles/ba.dir

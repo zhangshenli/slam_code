@@ -111,6 +111,19 @@ depend:
 .PHONY : depend
 
 #=============================================================================
+# Target rules for targets named g2o_3d2d
+
+# Build rule for target.
+g2o_3d2d: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 g2o_3d2d
+.PHONY : g2o_3d2d
+
+# fast build rule for target.
+g2o_3d2d/fast:
+	$(MAKE) -f CMakeFiles/g2o_3d2d.dir/build.make CMakeFiles/g2o_3d2d.dir/build
+.PHONY : g2o_3d2d/fast
+
+#=============================================================================
 # Target rules for targets named ba
 
 # Build rule for target.
@@ -150,6 +163,33 @@ src/ba.cpp.s:
 	$(MAKE) -f CMakeFiles/ba.dir/build.make CMakeFiles/ba.dir/src/ba.cpp.s
 .PHONY : src/ba.cpp.s
 
+src/g2o_3d2d.o: src/g2o_3d2d.cpp.o
+
+.PHONY : src/g2o_3d2d.o
+
+# target to build an object file
+src/g2o_3d2d.cpp.o:
+	$(MAKE) -f CMakeFiles/g2o_3d2d.dir/build.make CMakeFiles/g2o_3d2d.dir/src/g2o_3d2d.cpp.o
+.PHONY : src/g2o_3d2d.cpp.o
+
+src/g2o_3d2d.i: src/g2o_3d2d.cpp.i
+
+.PHONY : src/g2o_3d2d.i
+
+# target to preprocess a source file
+src/g2o_3d2d.cpp.i:
+	$(MAKE) -f CMakeFiles/g2o_3d2d.dir/build.make CMakeFiles/g2o_3d2d.dir/src/g2o_3d2d.cpp.i
+.PHONY : src/g2o_3d2d.cpp.i
+
+src/g2o_3d2d.s: src/g2o_3d2d.cpp.s
+
+.PHONY : src/g2o_3d2d.s
+
+# target to generate assembly for a file
+src/g2o_3d2d.cpp.s:
+	$(MAKE) -f CMakeFiles/g2o_3d2d.dir/build.make CMakeFiles/g2o_3d2d.dir/src/g2o_3d2d.cpp.s
+.PHONY : src/g2o_3d2d.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -158,10 +198,14 @@ help:
 	@echo "... depend"
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
+	@echo "... g2o_3d2d"
 	@echo "... ba"
 	@echo "... src/ba.o"
 	@echo "... src/ba.i"
 	@echo "... src/ba.s"
+	@echo "... src/g2o_3d2d.o"
+	@echo "... src/g2o_3d2d.i"
+	@echo "... src/g2o_3d2d.s"
 .PHONY : help
 
 
